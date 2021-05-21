@@ -43,6 +43,12 @@ function initialize(){
             paintDots(index);
         }, false);
     };
+
+    checkbox.addEventListener('click', function(e){
+        if(document.getElementById('checkbox').checked){
+            localStorage.setItem("notifications", "off"); 
+        }
+    })
 }
 
 function paintDots(num){
@@ -68,11 +74,9 @@ window.onload = function(){
      initialize();
  }
 
+
  function closeDialog(){
     infDialog.close();
-    if(document.getElementById('checkbox').checked){
-        localStorage.setItem("notifications", "off"); 
-    }
  }
  
 document.getElementById("closeDialog").onclick = function() { 
