@@ -1,0 +1,87 @@
+#infDialog {
+    position: fixed;
+    right: -75%; 
+    top: -70%;
+    border: solid;
+    padding: 1em;
+    background: rgb(157, 205, 242);
+    color: black;
+    width: 300px; 
+}
+
+body {
+    background-color: rosybrown;
+    height: 100%;
+    width: 100%;
+
+}
+
+#footer{
+    margin-left: 0%;
+    width: 100%;
+    height: 50%;
+    background: rgb(130, 194, 244);
+    display: flex;
+    flex-direction: row;
+}
+
+#closeDialog{
+    position: absolute;
+    left: 88%;
+    top: 5%;
+    display: inline;
+}
+
+#partOfText{
+    padding: 60x;
+    margin: auto;
+    margin: 10px;
+    text-align: center;
+    background: 4px dodgerblue;
+    background:#b2d9f7;
+    width: 220px;
+}
+
+.point{
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#leftSwipe{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-top: 1%;
+    margin-left: 20px;
+}
+
+span.dot{
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: rgb(228, 224, 22);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#rightSwipe{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-top: 1%;
+}
+
+html { overflow-x: hidden; }
